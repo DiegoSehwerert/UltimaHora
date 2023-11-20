@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+}
+
+
+main{
+
+}
+
+.top-topbar {
+    background-color: hsl(0, 0%, 90%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-topbar-news {
+
+}
+
+.top-topbar-news nav {
+    display: flex;
+}
+
+.todays-news-important ul{
+    list-style: none;
+}
+
+.top-topbar-location{
+
+}
+
+.top-topbar-location nav ul{
+    list-style: none;
+}
+
+.top-midbar{
+    background-color: hsl(0, 100%, 40%);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.compacted-menu{
+    background-color: hsl(0, 100%, 40%);
+
+}
+.compacted-menu button{
+    width: 5rem;
+    background-color: hsl(0, 100%, 40%);
+    color: hsl(0, 100%, 40%);;
+    border: none;
+    fill: white
+}
+
+.web-title{
+   
+}
+
+.user-panel{
+ display: flex;
+ justify-content: space-between;
+}
+/* Preguntar a Carlos como separar el registrar del login*/
+.login{
+
+}
+.login button{
+ display: flex;
+}
+
+.register{
+
+}
+
+.top-downbar{
+    display: flex;
+}
+.top-downbar nav{
+    width: 100%;
+    background-color: hsl(0, 0%, 80%);
+}
+
+.top-downbar nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.top-downbar nav ul li a svg{ 
+    width: 2.5rem ;
+}
+
+.news-and-ads{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ad{
+    
+}
+
+.news-gallery{
+    
+}
+
+.one-column{
+
+}
+
+.two-columns{
+
+}
+
+.three-columns{
+
+}
+
+.four-columns{
+
+}
+
+.news{
+
+}
+
+.news-image{
+
+}
+
+.news-category{
+
+}
+
+.news-title{
+
+}
+
+.news-summarize{
+
+}
+
+.news-author{
+
+}
+
+
+
+
+
+
+
