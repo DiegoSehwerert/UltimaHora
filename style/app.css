@@ -14,50 +14,88 @@ main{
 
 .top-topbar {
     background-color: hsl(0, 0%, 90%);
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+  
+    /* justify-content: space-around;
+    align-items: start; */
+    /* padding: 0.2rem; */
 }
-
+.top-topbar li{
+    font-size: 0.8rem;
+}
 .top-topbar-news {
-
-}
-
-.top-topbar-news nav {
+    width: 50%;
     display: flex;
+    justify-content: center;
 }
 
-.todays-news-important ul{
+.top-topbar-news ul {
     list-style: none;
 }
 
-.top-topbar-location{
 
+.todays-news-important li{
+    display: inline;
+}
+.todays-news-important li:not(:first-child) + li::before,
+.todays-news-important li:nth-child(n+3) + li::before{
+    content: " - ";
+}
+.todays-news-important li a {
+    text-decoration: none;
+    color:black;
+}
+.todays-news-important li:first-child {
+    color:red
 }
 
-.top-topbar-location nav ul{
+.top-topbar-location {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.top-topbar-location ul{
     list-style: none;
+}
+.top-topbar-location li{
+    display: inline;
+}
+.top-topbar-location li + li::before{
+    content: " | ";
+}
+.top-topbar-location li a {
+    text-decoration: none;
+    color: black;
 }
 
 .top-midbar{
     background-color: hsl(0, 100%, 40%);
     display: flex;
     justify-content: space-evenly;
+    padding: 0.8rem;
 }
 
 .compacted-menu{
     background-color: hsl(0, 100%, 40%);
-
 }
 .compacted-menu button{
-    width: 5rem;
+    width: 3rem;
     background-color: hsl(0, 100%, 40%);
-    color: hsl(0, 100%, 40%);;
     border: none;
-    fill: white
+    color: hsl(0, 100%, 40%);
+    fill: white;
+    /* padding-top: 35%; */
+
+    
+
 }
 
 .web-title{
-   
+    width: 18rem;
+}
+.web-title path{
+    fill: white;
 }
 
 .user-panel{
