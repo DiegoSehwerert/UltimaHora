@@ -22,7 +22,8 @@ main{
     /* padding: 0.2rem; */
 }
 .top-topbar li{
-    font-size: 0.8rem;
+    font-size: 1rem;
+    padding-bottom: 0.1rem;
 }
 .top-topbar-news {
     width: 50%;
@@ -46,7 +47,7 @@ main{
     text-decoration: none;
     color:black;
 }
-.todays-news-important li:first-child {
+.top-topbar-news li:first-child {
     color:red
 }
 
@@ -73,11 +74,15 @@ main{
     background-color: hsl(0, 100%, 40%);
     display: flex;
     justify-content: space-evenly;
-    padding: 0.8rem;
+    padding: 0.8rem 0 0.8rem 0;
+    width: 100%;
 }
 
 .compacted-menu{
     background-color: hsl(0, 100%, 40%);
+    display: flex;
+    justify-content: center;
+    width: 30%;
 }
 .compacted-menu button{
     width: 3rem;
@@ -92,7 +97,10 @@ main{
 }
 
 .web-title{
-    width: 18rem;
+    width: 30%;
+}
+.web-title svg{
+    width: 20rem;
 }
 .web-title path{
     fill: white;
@@ -100,15 +108,34 @@ main{
 
 .user-panel{
  display: flex;
- justify-content: space-between;
+ justify-content: center; 
+ width: 30%;
+ gap: 1rem;
+
 }
 /* Preguntar a Carlos como separar el registrar del login*/
 .login{
-
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
 }
 .login button{
  display: flex;
+ justify-content: space-evenly;
+ width: 10rem;
+ height: 2rem;
 }
+.login svg{
+    vertical-align: middle;
+}
+.login path{
+
+}
+.login span{
+    display: flex;
+    font-size: 0.8rem;
+}
+
 
 .register{
 
